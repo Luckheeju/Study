@@ -182,22 +182,3 @@ python scripts/02_run_simulation.py --dataset burnout --n_trials 10
 ```
 
 ---
-
-## 📄 인용 (Citation)
-
-```bibtex
-@mastersthesis{kim2024ttvae_conformal,
-  title     = {트랜스포머 기반 생성 모형을 활용한 컨포멀 보정 분위수의 안정화 연구},
-  author    = {김희주},
-  school    = {동국대학교 대학원 통계데이터사이언스학과},
-  year      = {2024},
-  note      = {석사 학위 논문 (1차 심사 단계)}
-}
-```
-
----
-
-## 📬 문의 (Contact)
-
-- 소속: 동국대학교 대학원 통계데이터사이언스학과
-- 이메일: [your-email@dongguk.edu](mailto:your-email@dongguk.edu)
