@@ -4,12 +4,12 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-본 레포지토리는 동국대학교 통계학과 석사 학위 논문 **"Transformer 기반 합성 데이터 증강을 통한 Split Conformal Prediction 분위수 안정화"**의 공식 구현 코드를 포함하고 있습니다.
+본 레포지토리는 동국대학교 통계학과 석사 학위 논문 "Transformer 기반 합성 데이터 증강을 통한 Split Conformal Prediction 분위수 안정화"의 공식 구현 코드를 포함하고 있습니다.
 
 ## 📌 연구 개요
 이분산성(Heteroscedasticity)이 존재하는 환경, 특히 소표본(Small-sample) 데이터 환경에서는 Split Conformal Prediction(CP)의 캘리브레이션 분위수(`q_hat`)가 매우 불안정해지는 문제가 발생합니다. 
 
-본 연구는 생성 모델들 간의 단순한 성능 비교가 아닌, **캘리브레이션 분위수(`q_hat`)의 안정화**에 핵심 목적을 두고 있습니다. 이를 위해 Tabular Twin Variational Autoencoders(TTVAE)와 CTGAN을 활용하여 캘리브레이션 세트를 직접적으로 증강하는 파이프라인을 구축하였으며, 과적합(Overfitting) 없이 더 안정적이고 좁은 예측 구간(Prediction Interval)을 확보하는 방법론을 제시합니다.
+본 연구는 생성 모델들 간의 단순한 성능 비교가 아닌, 캘리브레이션 분위수(`q_hat`)의 안정화**에 핵심 목적을 두고 있습니다. 이를 위해 Tabular Twin Variational Autoencoders(TTVAE)와 CTGAN을 활용하여 캘리브레이션 세트를 직접적으로 증강하는 파이프라인을 구축하였으며, 과적합(Overfitting) 없이 더 안정적이고 좁은 예측 구간(Prediction Interval)을 확보하는 방법론을 제시합니다.
 
 ## ✨ 주요 특징
 * **분위수 안정화 (Quantile Stabilization):** Conformal Prediction 내 `q_hat`의 분산을 직접적으로 제어하고 안정시킵니다.
