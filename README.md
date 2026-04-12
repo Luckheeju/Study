@@ -31,6 +31,12 @@
 | **자동차 연비 (Auto MPG)** | 392 | 7 | 1 | 연비 |
 | **팁 (Tips)** | 244 | 3 | 4 | 팁 금액 |
 
+## ⚙️ TTVAE 하이퍼파라미터 설정
+본 연구의 데이터 증강에 사용된 TTVAE 아키텍처는 다음의 파라미터로 학습되었습니다.
+* **Epochs:** 800 / **Batch size:** 64
+* **Latent dimension:** 32 / **Embedding dimension:** 128
+* **Transformer layers:** 2 / **Dropout:** 0.1 / **Optimizer:** Adam
+
 ## 📂 Project Structure
 프로젝트의 주요 파일 구성과 역할은 다음과 같습니다.
 
@@ -49,12 +55,15 @@
 ├── 📊 notebooks/               # 1차 심사용 실험 결과 시각화 (보정 분위수 추이 그래프 등)
 ├── requirements.txt            # 필요 패키지 목록
 └── README.md
-## 📖 Citation (인용)
-@mastersthesis{Kim2026_Abstract,
-  author       = {Heeju Kim},
-  title        = {Stabilizing Conformal Prediction Calibration Quantiles Using Transformer-Based Generative Models (1st Draft)},
-  school       = {Dongguk University},
-  year         = {2026},
-  note         = {Master's Thesis Abstract Review}
-}
+
+
+## 📈 주요 실험 결과 (Evaluation Metrics)
+1차 심사(초록) 단계의 모의 실험을 통해 다음 지표를 산출하였습니다.
+
+
+
+## 📅 향후 업데이트 계획 (To-Do)
+
+
+
 
